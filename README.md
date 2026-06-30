@@ -1,38 +1,49 @@
-# vue-stickynote
+# Vue Sticky Note App
 
-This template should help get you started developing with Vue 3 in Vite.
+A simple, colorful, and interactive sticky note (memo) application built with Vue 3 and Vite. 
 
-## Recommended IDE Setup
+## Features
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- **Add Memos**: Easily create new sticky notes to keep track of your tasks or ideas.
+- **Random Colors**: Each new memo automatically gets a randomly generated, beautiful background color.
+- **Delete Memos**: Remove memos individually once you are done with them.
+- **Responsive Design**: Clean and straightforward user interface.
 
-## Recommended Browser Setup
+## Technologies Used
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+- [Vue 3](https://vuejs.org/) (Composition API)
+- [Vite](https://vitejs.dev/) - Next Generation Frontend Tooling
+- Vanilla CSS for styling
 
-## Customize configuration
+## Getting Started
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+Follow these steps to get the project up and running on your local machine.
 
-## Project Setup
+### Prerequisites
 
-```sh
+Ensure you have [Node.js](https://nodejs.org/) installed on your computer.
+
+### Installation
+
+1. Navigate to the project directory in your terminal.
+2. Install the required dependencies:
+
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Development Server
 
-```sh
+To run the application locally with hot-module replacement (HMR) for development:
+
+```bash
 npm run dev
 ```
 
-### Compile and Minify for Production
+### Production Build
 
-```sh
+To compile and minify the application for production deployment:
+
+```bash
 npm run build
 ```
